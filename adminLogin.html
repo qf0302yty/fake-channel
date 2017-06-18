@@ -1,0 +1,38 @@
+<?doctype html>
+<html style="background:url('assets/img/5.jpg')">
+	<head>
+		<title>香奈儿中国-管理员登录</title>
+		<link rel="stylesheet" href="assets/css/chanel.css" type="text/css"/>
+		<meta charset="utf-8">
+	</head>
+	<body style="background:rgba(0,0,0,0.3)">
+		<div class="header3" >
+			<div class="title3">CHANEL</div>
+			<div class="subtitle2">Fashion passes, style remains.</div>
+		</div>
+		<div class="loginCard">
+			<form>
+				<input placeholder="用户名" type="text" id="username"></input><br>
+				<input placeholder="密码" type="password" id="password"></input><br>
+				<button  onclick="login(event)">登录</button>
+			</form>
+		</div>
+		<div class="footer2">
+		- 香奈儿中国·版权所有 -
+		</div>
+	</body>
+	<script>
+		function login(event){
+			var event = event || window.event;
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+			if(username=="admin"&&password=="123456"){
+				event.preventDefault();
+				window.location.href="adminProductsList.html";
+				//window.open("adminProductsList.html",'_self');
+			}else{
+				alert("用户名或密码错误！");
+			}
+		}
+	</script>
+</html>

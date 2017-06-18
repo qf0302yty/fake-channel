@@ -1,0 +1,312 @@
+/*客户端样式*/
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+body{
+	height:100%;
+}
+.header{
+	height:4vw;
+	background: #000;
+	color:#fff;
+}
+.title{
+	height:4vw;
+	line-height: 4vw;
+	text-align: center;
+	font-size:1.8vw;
+	font-weight: 600;
+	letter-spacing: 0.15vw;
+	transform:scaleY(0.9);
+}
+.content{
+	margin-top: 1vw;
+	height:40vw;
+}
+.menu{
+	height:100%;
+	width:80%;
+	margin-left:15%;
+}
+.card{
+	width:25%;
+	height:50%;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	color:#000;
+}
+.type{
+	font-size:1.2vw;
+	height:10%;
+	margin-top:45%;
+	width:30%;
+	margin-left:35%;
+	border-bottom:1px solid;
+	text-align: center;
+}
+.type a{
+	color:#000;
+	text-decoration: none;
+}
+.card2{
+	width:25%;
+	height:50%;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	background: #000;
+	color:#fff;
+}
+.type2{
+	font-size:1.2vw;
+	height:10%;
+	margin-top:45%;
+	width:30%;
+	margin-left:35%;
+	border-bottom:1px solid #fff;
+	text-align: center;
+}
+.type2 a{
+	color:#fff;
+	text-decoration: none;
+}
+.footer{
+	position: fixed;
+	height:4vw;
+	line-height: 4vw;
+	bottom:0;
+	background: #000;
+	width: 100%;
+}
+.footerText{
+	color:#fff;
+	margin-left:2vw;
+	font-size: 0.9vw;
+	width:48vw;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.login{
+	width:46vw;
+	display: inline-block;
+	box-sizing: border-box;
+	color:#fff;
+	font-size: 0.9vw;
+	text-align: right;
+}
+.login a{
+	text-decoration: none;
+	color:#Fff;
+}
+.topImg img{
+	width:100%;
+}
+.subtitle{
+	height:3vw;
+	line-height: 3vw;
+	font-size:1.5vw;
+	width:24%;
+	margin-left: 38%;
+	text-align: center;
+	//border-bottom: 1px solid;
+	letter-spacing: 0.3vw;
+}
+.item{
+	width:70%;
+	margin-left: 15%;
+}
+.item img{
+	width:25%;
+	float:left;
+}
+.describe{
+	width:70%;
+	float:right;
+	margin-top: 8vw;
+}
+.describe h1{
+	font-size:1.5vw;
+	margin-bottom: 2px;
+}
+.describe p{
+	margin-top: 2px;
+	font-size:0.9vw;
+}
+.item:after{
+	content:".";
+	display: block;
+	clear:both;
+}
+/*联系我们*/
+.header2{
+	height:4vw;
+	background: #fff;
+	color:#000;
+	margin-top: 5vw;
+}
+.title2{
+	height:8vw;
+	line-height: 8vw;
+	text-align: right;
+	font-size:4vw;
+	font-weight: 600;
+	letter-spacing: 0.15vw;
+	transform:scaleY(0.9);
+	width:70%;
+	margin-left:15%;
+}
+.contact{
+	width:70%;
+	margin-left: 15%;
+	margin-top: 4vw;
+	text-align: right;
+}
+.contact h1{
+	font-size:2vw;
+	font-weight: 500;
+	margin-bottom: 8vw;
+}
+.contact p{
+	
+	font-size: 0.9vw;
+	line-height: 1.5vw;
+}
+.contact hr{
+	margin-top:1vw;
+	margin-bottom:1vw;
+}
+.contact img{
+	width:20vw;
+	float:left;
+}
+
+/*管理员样式*/
+.main{
+	width:70%;
+	margin-left: 15%;
+	margin-top: 3vw;
+}
+.left-menu{
+	width:30%;
+	float:left;
+	box-sizing: border-box;
+}
+.left-menu li{
+	list-style: none;
+	//border-bottom: 1px solid #D4D4D4;
+	width:80%;
+	font-size: 1.2vw;
+	height: 3vw;
+	line-height: 3vw;
+	text-align: center;
+	margin-left:10%;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+.this{
+	background: #000;
+	color:#fff;
+}
+.this>a{
+	text-decoration: none;
+	color:#fff;
+}
+.right-data{
+	width:70%;
+	box-sizing: border-box;
+	float:left;
+}
+
+.header3{
+	height:8vw;
+	///background: #fff;
+	color:#fff;
+	padding-top: 3vw;
+}
+.title3{
+	height:8vw;
+	line-height: 8vw;
+	text-align: center;
+	font-size:4vw;
+	font-weight: 600;
+	letter-spacing: 0.15vw;
+	transform:scaleY(0.9);
+	width:70%;
+	margin-left:15%;
+}
+.loginCard{
+	width:30%;
+	margin:auto;
+	//background: #000;
+	height:25vw;
+	//color:#fff;
+	text-align: center;
+}
+.loginCard form{
+	padding-top: 6vw;
+}
+.loginCard input{
+	border-radius: 5px;
+	width:70%;
+	border:1px solid #999;
+	height:3.5vw;
+	margin-top: 10px;
+	color:#Fff;
+	outline: none;
+	padding-left:15px;
+	background: rgba(0,0,0,0.6);
+}
+
+.loginCard button{
+	width:70%;
+	height:3vw;
+	border-radius: 5px;
+	margin-top: 10px;
+	color:#fff;
+	outline: none;
+	border:1px solid #999;
+	background: rgba(0,0,0,0.6);
+}
+.loginCard button:hover{
+	background: rgba(0,0,0,0.8);
+}
+.footer2{
+	width:30%;
+	margin:auto;
+	color:#fff;
+	text-align: center;
+	margin-top: 1vw;
+	font-size: 0.9vw;
+}
+.subtitle2{
+	height:3vw;
+	line-height: 3vw;
+	font-size:1vw;
+	width:40%;
+	margin: auto;
+	text-align: center;
+	//border-bottom: 1px solid;
+	letter-spacing: 0.2vw;
+	margin-top: -2vw;
+}
+.loginCard input::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #eee; 
+} 
+.loginCard input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #eee;
+} 
+.loginCard input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #eee; 
+} 
+.loginCard input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #eee; 
+} 
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+border: 1px solid #999!important; 
+} 
